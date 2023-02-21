@@ -1,0 +1,21 @@
+{
+  "name": "playwright-sample-cucumber",
+  "version": "1.0.0",
+  "description": "Playwright cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet",
+    "report": "node reporter.js"
+  },
+  "author": "gg",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "@playwright/test": "^1.30.0",
+    "chai": "^4.3.7",
+    "cucumber-html-reporter": "^5.5.0",
+    "playwright": "^1.30.0",
+    "prettier": "^2.8.4"
+  },
+  "keywords": []
+}

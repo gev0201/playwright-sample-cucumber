@@ -1,0 +1,11 @@
+npm init
+npm install prettier
+npm audit fix
+npm install @playwright/test
+npx playwright install
+
+------
+npm install playwright
+npm install chai
+npm install @cucumber/cucumber
+npm install cucumber-html-reporter
